@@ -1,0 +1,16 @@
+create database upload
+
+go
+
+create table PERSON
+(
+ID              NUMERIC(19,0)  null,
+NAME            VARCHAR(50)  null,
+IMAGE_DATA      IMAGE  null,
+IMAGE_FILE_NAME VARCHAR(30)  null
+) ;
+
+--them hình ảnh 
+INSERT INTO [dbo].PERSON(ID ,IMAGE_DATA) 
+SELECT 1, 
+	BulkColumn FROM OPENROWSET(BULK N'C:\Thu Vien\Hình ảnh\sql.png', SINGLE_BLOB) image;

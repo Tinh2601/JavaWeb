@@ -1,0 +1,7 @@
+-findAll sản phẩm 
+-load sản phẩm theo category 
+-phân trang 
+-load more
+-lazy load 
+-crud category 
+-có thể bị lỗi phần ajax , lazy load ,... thì có thể do lỗi phía browser hoặc các phiên bản của js , lúc làm project này vẫn chạy bình thường

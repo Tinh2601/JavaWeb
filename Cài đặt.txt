@@ -1,0 +1,5 @@
+-> File -> Import -> Existing Projects into Workspace -> ...
+
+-> khi import lên nên update maven project 
+
+-> nếu vẫn lỗi thì tạo lại project khác , nhưng mà copy từng class qua ko cần viết lại , copy từng phần , vì có thể khi copy hết 1 cái project như vậy thì có khả năng bị xung đột ( vì có 1 số thứ khi cài đặt thì ide sẽ tự làm , theo thứ tự ctrl + s class -> build -> thực hiện 1 số phần nào đó ; nó có thứ tự ; cho nên copy hết 1 lượt qua có khi bị lỗi ; giống như việc : câu lệnh đúng rùi nhưng mình ctrl + x dòng đó đi rùi paste lại ,thì lại ko có lỗi) 

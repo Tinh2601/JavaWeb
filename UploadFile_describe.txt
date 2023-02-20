@@ -1,0 +1,2 @@
+-có thể hiển thị hình ảnh sau khi upload ( nhưng hình ảnh này được lưu trong thư mục ổ đĩa của máy tính )
+-file sau khi up lên có thể download về 
